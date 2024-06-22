@@ -1,12 +1,11 @@
-import './App.css';
-import MyCompo from './components/MyCompo';
+import DrugList from "./components/DrugList";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <   MyCompo />
-    </div>
-  );
-}
+    <h1 className="    bg-gray-100 flex  flex-col items-center justify-center">
+     
 
-export default App;
+      <DrugList/>
+    </h1>
+  )
+}
